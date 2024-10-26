@@ -92,3 +92,34 @@ main{
     font-size: 32px;
     font-weight: 600;
 }
+footer{
+    padding: 10px 100px;
+    text-align: center;
+    display: grid;
+    margin-top: 3rem;
+    gap: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+footer small{
+    color: #2d333a;
+}
+@media (max-width: 500px){
+    .service-sec{
+        grid-template-columns: none;
+    }
+    .blob-bg{
+        display: none;
+    }
+    .main-div{
+        padding: 0 20px;
+    }
+    footer{
+        padding: 0 20px;
+    }
+    .service-section{
+        margin-top: 3rem;
+    }
+    .service-section .icon-box .service-title, .service-section .icon-box .service-para{
+        margin-left: 0;
+    }
+}
