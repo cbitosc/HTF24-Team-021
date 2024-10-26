@@ -6,7 +6,7 @@ const responses = {
     breathing: ["Breathing exercises can help. Try breathing in for 4 seconds, holding for 4, and exhaling for 4."],
     relax: ["Consider stretching or simple relaxation exercises. Your body and mind will thank you!"],
     default: ["I'm here to help. Try asking about stress relief, breathing exercises, or relaxation tips.", "You can try a breathing exercise to help you feel more grounded."],
-    resources: ["Here's a helpful resource on managing stress: [Link to article]"]
+    resources: ["Here's a helpful resource on managing stress: https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response"]
 };
 
 // Synonyms for basic keyword recognition
