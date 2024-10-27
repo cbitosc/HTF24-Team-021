@@ -102,6 +102,7 @@ footer{
 }
 footer small{
     color: #2d333a;
+    text-wrap: balance;
 }
 @media (max-width: 500px){
     .service-sec{

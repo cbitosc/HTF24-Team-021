@@ -69,7 +69,13 @@ body {
     background-color: #77d2e0;
     text-align: right;
 }
-
+#userInput{
+    background-color: #e9e8e9;
+    transition: .1s;
+}
+#userInput:focus{
+    border: 1px solid #a268a55b;
+}
 input, button {
     width: 100%;
     padding: 12px 10px;
@@ -80,6 +86,7 @@ input, button {
 }
 .send-btn{
     background-color: #a268a5;
+    color: white;
 }
 .excercise-btn{
     background-color: #c8c8c8;
